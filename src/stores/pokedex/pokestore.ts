@@ -17,7 +17,6 @@ const fetchPokemon = async (): Promise<void> => {
 				image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${index + 1}.png`
 			};
 		});
-		console.log(loadedPokemon);
 		Pokemon.set(loadedPokemon);
 	} catch (err) {
 		console.error(err);
