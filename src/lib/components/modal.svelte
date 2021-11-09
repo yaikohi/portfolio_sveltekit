@@ -54,23 +54,12 @@
 		}
 	}
 
-	// expose the API
 	modals[id] = { open, close };
 
 	onDestroy(() => {
 		delete modals[id];
 		window.removeEventListener('keydown', keyPress);
 	});
-
-	// end svelte docs && start MY CODE:
-
-	// export let showModal: boolean;
-
-	// function handleKeydown(event: KeyboardEvent): void {
-	// 	if (event.key == 'Escape') {
-	// 		showModal = false;
-	// 	}
-	// }
 </script>
 
 <!-- Svelte docs:  -->

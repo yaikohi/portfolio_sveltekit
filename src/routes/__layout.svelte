@@ -3,15 +3,7 @@
 	import Navbar from '../lib/components/navbar.svelte';
 </script>
 
-<div
-	class="
-p-8 
-max-w-7xl 
-lg:mx-auto 
-lg:grid 
-flex 
-flex-col"
->
+<div class="p-8 max-w-7xl lg:mx-auto lg:grid flex flex-col">
 	<Navbar />
 	<slot />
 </div>

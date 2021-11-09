@@ -2,78 +2,20 @@
 	<title>Work - Checkers in Svelte</title>
 </svelte:head>
 
-<div
-	class="flex-auto flex-col 
-			bg-gray-200 
-			rounded-md 
-			p-8
-			"
->
-	<h1
-		class="
-			text-4xl 
-			my-8 
-			uppercase
-			"
-	>
-		Svelte Checkers
-	</h1>
-	<div
-		class="
-				flex
-				flex-row
-				m-6
-				"
-	>
-		<p
-			class="
-		text-lg 
-		text-left
-		p-8
-		"
-		>
+<div class="flex-auto flex-col mx-auto bg-gray-200 rounded-md p-8">
+	<h1 class="text-4xl my-8 uppercase">Svelte Checkers</h1>
+	<div class="m-6 md:flex-row md:flex">
+		<h2 class="text-2xl text-black">Subtitle of some sort?</h2>
+		<p class="text-lg text-left p-8 font-light">Some text here.</p>
+		<h2 class="text-2xl text-black">Why and what?</h2>
+		<p class="text-lg text-left p-8 font-light">
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, fugit unde. Quos facilis
 			sit molestias veniam illo dignissimos, eius magnam enim quisquam doloribus ratione maxime est
-			optio totam itaque nesciunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam id
-			possimus est illo dolorum dolor aperiam rem accusantium sint ipsum. Vel nostrum a minima
-			quidem soluta eligendi reiciendis nisi quia. Lorem ipsum dolor sit amet consectetur,
-			adipisicing elit. Aliquam asperiores, laboriosam mollitia temporibus laborum amet saepe
-			maxime? Odio deserunt quos, inventore minima odit ratione vero molestias dicta aliquid ipsam?
-			Voluptatibus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non consequatur error
-			at, molestias repudiandae nobis minus? Molestiae, magni vero. Assumenda iste explicabo,
-			voluptatum eligendi iure hic ratione magni praesentium fuga?
+			optio totam itaque nesciunt.
 		</p>
-		<p
-			class="
-	text-lg 
-	text-left
-	p-8
-	"
-		>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, fugit unde. Quos facilis
-			sit molestias veniam illo dignissimos, eius magnam enim quisquam doloribus ratione maxime est
-			optio totam itaque nesciunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam id
-			possimus est illo dolorum dolor aperiam rem accusantium sint ipsum. Vel nostrum a minima
-			quidem soluta eligendi reiciendis nisi quia. Lorem ipsum dolor sit amet consectetur,
-			adipisicing elit. Aliquam asperiores, laboriosam mollitia temporibus laborum amet saepe
-			maxime? Odio deserunt quos, inventore minima odit ratione vero molestias dicta aliquid ipsam?
-			Voluptatibus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non consequatur error
-			at, molestias repudiandae nobis minus? Molestiae, magni vero. Assumenda iste explicabo,
-			voluptatum eligendi iure hic ratione magni praesentium fuga?
-		</p>
+		<h1 class="text-4xl my-8 uppercase">
+			You can check the checkers app
+			<a class="text-red-600" href="https://github.com/yaikohi/checkers"> here </a>.
+		</h1>
 	</div>
-	<h1
-		class="
-text-4xl 
-my-8 
-uppercase
-"
-	>
-		You can check the checkers app <a
-			class="text-red-600"
-			href="https://github.com/yaikohi/checkers"
-		>
-			here</a
-		>.
-	</h1>
 </div>
