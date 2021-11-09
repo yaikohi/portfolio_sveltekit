@@ -1,4 +1,5 @@
 <script context="module" lang="ts">
+	// ` context="module" ` makes it so this <script /> content runs before the page is rendered
 	import { getPokemonById } from '../../../stores/pokedex/pokestore';
 
 	export async function load(ctx) {
