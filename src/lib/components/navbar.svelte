@@ -1,0 +1,48 @@
+<nav
+	class="
+		flex 
+		flex-row  
+		justify-center 
+		m-8
+		"
+>
+	<a
+		class="
+		mx-4 text-lg 
+		text-gray-500 
+		active:text-gray-900 
+		hover:text-red-600 
+		focus:outline-none 
+		focus:ring-2 
+		focus:ring-red-600 
+		focus:ring-opacity-50
+		"
+		href="/">Home</a
+	>
+	<a
+		class="
+		mx-4 text-lg 
+		text-gray-500 
+		active:text-gray-900 
+		hover:text-red-600 
+		focus:outline-none 
+		focus:ring-2 
+		focus:ring-red-600 
+		focus:ring-opacity-50
+		"
+		href="/blog">Blog</a
+	>
+	<a
+		class="
+		mx-4 text-lg 
+		text-gray-500 
+		active:text-gray-900 
+		hover:text-red-600 
+		focus:outline-none 
+		focus:ring-2 
+		focus:ring-red-600 
+		focus:ring-opacity-50
+		"
+		href="/work">Work</a
+	>
+</nav>
