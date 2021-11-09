@@ -1,4 +1,9 @@
 module.exports = {
 	mode: 'jit',
-	purge: ['./src/**/*.svelte'],
+	theme: {
+		fontFamily: {
+			sans: ['Sora', 'Inter', 'sans-serif']
+		}
+	},
+	purge: ['./src/**/*.svelte']
 };
