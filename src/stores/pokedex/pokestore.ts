@@ -4,6 +4,7 @@ import type { PokeApiResponse } from 'src/types/pokedex/pokeapi';
 
 export const Pokemon = writable([]);
 let loaded = false;
+// eslint-disable-next-line prefer-const
 let amount: number = 0;
 const pokemonDetails = {};
 
@@ -30,7 +31,6 @@ export const fetchPokemon = async (): Promise<void> => {
 };
 
 export const getPokemonById = async (id: number) => {
-	// if (pokemonDetails[id]) return pokemonDetails[id];
 	try {
 		const URL = `https:pokeapi.co/api/v2/pokemon/${id}`;
 		// const URL = `https://pokeapi.co/api/v2/pokemon/`;
