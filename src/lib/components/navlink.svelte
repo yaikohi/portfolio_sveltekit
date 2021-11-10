@@ -4,7 +4,7 @@
 </script>
 
 <a
-	class="mx-4 text-lg 
+	class="uppercase mx-4 text-lg 
     text-gray-500 
     active:text-gray-900 
     hover:text-red-600 
