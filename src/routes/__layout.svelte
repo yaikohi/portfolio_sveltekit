@@ -12,17 +12,4 @@
 	@tailwind base;
 	@tailwind components;
 	@tailwind utilities;
-
-	/* @layer base {
-		h1 {
-			@apply text-4xl;
-		}
-		h2 {
-			@apply text-2xl;
-		}
-		/* @font-face {
-			font-family: Zen Kaku Gothic Antique;
-			src: url('../../fonts/ZenKakuGothicAntique') format('ttf');
-		} 
-	} */
 </style>
