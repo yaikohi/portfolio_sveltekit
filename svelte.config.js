@@ -9,14 +9,18 @@ const config = {
 
 	kit: {
 		// hydrate the <div id="svelte"> element in src/app.html
-		target: '#svelte'
-	},
-	vite: {
-		// why doesnt this work?
-		'@/*': path.resolve('src/*'),
-		'@lib': path.resolve('src/lib'),
-		'@components': path.resolve('src/lib/components'),
-		'@utils': path.resolve('src/lib/utils')
+		target: '#svelte',
+		vite: {
+			resolve: {
+				alias: {
+					'@': path.resolve('./src'),
+					'@lib': path.resolve('./src/lib'),
+					'@routes': path.resolve('./src/routes'),
+					'@components': path.resolve('./src/lib/components'),
+					'@utils': path.resolve('./src/lib/utils')
+				}
+			}
+		}
 	}
 };
 
