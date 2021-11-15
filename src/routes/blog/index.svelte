@@ -1,7 +1,3 @@
-<script lang="ts">
-	console.log('Whats up');
-</script>
-
 <svelte:head>
 	<title>Blog</title>
 </svelte:head>
